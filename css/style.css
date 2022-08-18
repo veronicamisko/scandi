@@ -80,3 +80,57 @@ a {
     line-height: 50px;
 }
 
+/* Хэдэр */
+
+.main-header {
+    margin-bottom: -110px;
+}
+
+.main-header .wide-container {
+    display: flex;
+    align-items: baseline;
+
+    padding-top: 36px;
+    padding-bottom: 46px;
+}
+
+.main-header-logo {
+    display: flex;
+    align-items: flex-end;
+    align-self: normal;
+
+    margin-right: 83px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.site-navigation {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0;
+    margin-right: 42px;
+    padding: 0;
+
+    list-style: none;
+}
+
+.site-navigation-item {
+    margin-right: 23px;
+}
+
+.site-navigation-item:last-child {
+    margin-right: 0;
+}
+
+.site-navigation-link {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.phone {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* Промо */
