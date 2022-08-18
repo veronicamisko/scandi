@@ -1,0 +1,82 @@
+/* Общие */
+
+body {
+    min-width: 1200px;
+
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: normal;
+    color: #533738;
+
+    background-color: #e5e5e5;
+}
+
+a {
+    color: #533738;
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1036px;
+}
+
+.wide-container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.button {
+    display: inline-block;
+    vertical-align: middle;
+
+    box-sizing: border-box;
+    padding: 26px 69px;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    border: 2px solid #cc8b86;
+    background-color: #cc8b86;
+}
+
+.button:hover {
+    color: #cc8b86;
+
+    border-color: white;
+    background-color: white;
+}
+
+.button:focus {
+    color: #99544f;
+
+    border: 2px solid #99544f;
+    background-color: white;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 40px;
+
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+}
+
