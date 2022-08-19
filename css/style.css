@@ -140,7 +140,7 @@ a {
     padding-bottom: 166px;
 
     border-color: #ded7cb;
-    background-image: url(/img/bg-photo.jpg);
+    background-image: url(../img/bg-photo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
